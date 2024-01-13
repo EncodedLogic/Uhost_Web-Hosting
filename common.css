@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Play&family=Roboto+Mono:ital,wght@1,300&family=Roboto:wght@300&family=Source+Code+Pro:ital,wght@1,500&family=Ubuntu:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  margin: 0;
+}
+
+/* header begins */
+
+.main-header {
+  width: 100%;
+  background: #222831;
+  padding: 8px 16px;
+}
+
+.main-header a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.main-header__brandClass {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.main-header__brand {
+  font-family: "Source Code Pro", monospace;
+  font-size: 30px;
+}
+
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 105px);
+  vertical-align: middle;
+}
+
+.main-nav__items {
+  /* margin: 0;
+    padding: 0; */
+  list-style: none;
+}
+
+.main-nav__item {
+  display: inline-block;
+  margin: 0 12px;
+}
+
+.main-nav__item a {
+  padding: 8px 0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 17px;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+  color: rgb(18, 218, 249);
+  border-bottom: 5px solid rgb(18, 218, 249);
+}
+
+.main-nav__item--cta a {
+  color: black;
+  background: #00adb5;
+  border-radius: 14px;
+  padding: 6px 15px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+  color: black;
+  border-bottom: 5px solid #eeeeee;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* footer begins */
+
+.main-footer {
+  background: black;
+  padding: 32px;
+}
+
+.main-footer__links {
+  list-style: none;
+  margin: 0;
+  padding: none;
+  text-align: center;
+}
+
+.main-footer__link {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.main-footer__link a {
+  color: white;
+  /* text-decoration: none; */
+}
+
+.main-footer__link a:hover {
+  color: skyblue;
+  font-weight: bold;
+}
+
+/* a.active {
+    color: pink;
+  } */
+
+/* Buttons begins  */
+
+.button {
+  color: white;
+  background-color: #0d56aa;
+  box-shadow: 0 1.5px 0 1.5px #036f8e;
+  border: none;
+  border-radius: 4px;
+  font: inherit;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.plan--highlighted button {
+  background-color: #431188;
+  box-shadow: 0 1.5px 0 1.5px #160674;
+  color: white;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+/* .button:hover, */
+.button:active {
+  box-shadow: none;
+  transform: translateY(1.5px);
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: none;
+}
